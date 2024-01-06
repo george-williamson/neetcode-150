@@ -9,3 +9,6 @@ class Solution:
             else:
                 anagrams[sorted_word] = [word]
         return anagrams.values()
+
+# Time Complexity: O(N*K*log(K)), where N is the length of strs, K is the length of the word. 
+# Space Complexity: O(N*K)
