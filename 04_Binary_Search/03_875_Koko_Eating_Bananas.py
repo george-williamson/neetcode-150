@@ -16,8 +16,8 @@ class Solution:
     
         return res
 
-# Time complexity: 
-# Space complexity: 
+# Time complexity: O(log(max(piles))
+# Space complexity: O(1) 
 
 # Notes: 
 # First thing to notice is that h >= len(p) otherwise we would not be able to finish all piles at any rate.
